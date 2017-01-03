@@ -39,6 +39,8 @@ labels:
 - horror
 - ancients
 - skeleton
+timeCreated: 1483448788
+licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
@@ -242,6 +244,98 @@ ModelImporter:
     400194: s1_spine3
     400196: s1_spine4
     400198: //RootNode
+    2300000: ar1_armor
+    2300002: ar1_belt
+    2300004: ar1_helmet
+    2300006: ar1_L_arm
+    2300008: ar1_L_shoulder
+    2300010: ar1_R_arm
+    2300012: ar1_R_shoulder
+    2300014: ar1_sword
+    2300016: s1_ilium
+    2300018: s1_jaw
+    2300020: s1_L_calcaneus
+    2300022: s1_L_clavicle
+    2300024: s1_L_eye
+    2300026: s1_L_femur
+    2300028: s1_L_fibula
+    2300030: s1_L_hand
+    2300032: s1_L_hunerus
+    2300034: s1_L_patella
+    2300036: s1_L_radius
+    2300038: s1_L_scapula
+    2300040: s1_L_talus
+    2300042: s1_L_tarsus
+    2300044: s1_L_tibia
+    2300046: s1_L_toe
+    2300048: s1_L_ulna
+    2300050: s1_R__patella
+    2300052: s1_R_calcaneus
+    2300054: s1_R_clavicle
+    2300056: s1_R_eye
+    2300058: s1_R_femur
+    2300060: s1_R_fibula
+    2300062: s1_r_hand
+    2300064: s1_R_hunerus
+    2300066: s1_R_radius
+    2300068: s1_R_scapula
+    2300070: s1_R_talus
+    2300072: s1_R_tarsus
+    2300074: s1_R_tibia
+    2300076: s1_R_toe
+    2300078: s1_R_ulna
+    2300080: s1_ribs
+    2300082: s1_skull
+    2300084: s1_spine1
+    2300086: s1_spine2
+    2300088: s1_spine3
+    2300090: s1_spine4
+    3300000: ar1_armor
+    3300002: ar1_belt
+    3300004: ar1_helmet
+    3300006: ar1_L_arm
+    3300008: ar1_L_shoulder
+    3300010: ar1_R_arm
+    3300012: ar1_R_shoulder
+    3300014: ar1_sword
+    3300016: s1_ilium
+    3300018: s1_jaw
+    3300020: s1_L_calcaneus
+    3300022: s1_L_clavicle
+    3300024: s1_L_eye
+    3300026: s1_L_femur
+    3300028: s1_L_fibula
+    3300030: s1_L_hand
+    3300032: s1_L_hunerus
+    3300034: s1_L_patella
+    3300036: s1_L_radius
+    3300038: s1_L_scapula
+    3300040: s1_L_talus
+    3300042: s1_L_tarsus
+    3300044: s1_L_tibia
+    3300046: s1_L_toe
+    3300048: s1_L_ulna
+    3300050: s1_R__patella
+    3300052: s1_R_calcaneus
+    3300054: s1_R_clavicle
+    3300056: s1_R_eye
+    3300058: s1_R_femur
+    3300060: s1_R_fibula
+    3300062: s1_r_hand
+    3300064: s1_R_hunerus
+    3300066: s1_R_radius
+    3300068: s1_R_scapula
+    3300070: s1_R_talus
+    3300072: s1_R_tarsus
+    3300074: s1_R_tibia
+    3300076: s1_R_toe
+    3300078: s1_R_ulna
+    3300080: s1_ribs
+    3300082: s1_skull
+    3300084: s1_spine1
+    3300086: s1_spine2
+    3300088: s1_spine3
+    3300090: s1_spine4
     4300000: s1_ribs
     4300002: s1_L_hunerus
     4300004: s1_R_hunerus
@@ -403,16 +497,10 @@ ModelImporter:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
     resampleCurves: 1
-    optimizeGameObjects: 1
+    optimizeGameObjects: 0
     motionNodeName: 
     animationImportErrors: 
-    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
-      might lower retargeting quality:\n\t'Bip01 Spine1' has translation animation
-      that will be discarded.\n\t'Bip01 Neck' has translation animation that will
-      be discarded.\n\t'Bip01 L Clavicle' has translation animation that will be discarded.\n\t'Bip01
-      R Clavicle' has translation animation that will be discarded.\n\t'Bip01 L Thigh'
-      has translation animation that will be discarded.\n\t'Bip01 R Thigh' has translation
-      animation that will be discarded.\n"
+    animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     animationCompression: 3
@@ -433,11 +521,11 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
       keepOriginalOrientation: 1
       keepOriginalPositionY: 1
       keepOriginalPositionXZ: 1
@@ -461,14 +549,14 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 0
-      loopBlendOrientation: 1
-      loopBlendPositionY: 1
-      loopBlendPositionXZ: 1
-      keepOriginalOrientation: 1
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
       heightFromFeet: 0
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
@@ -573,14 +661,14 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 0
-      loopBlendOrientation: 1
-      loopBlendPositionY: 1
-      loopBlendPositionXZ: 1
-      keepOriginalOrientation: 1
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
       heightFromFeet: 0
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
@@ -657,14 +745,14 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
       loopBlendPositionXZ: 0
-      keepOriginalOrientation: 1
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
       heightFromFeet: 0
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
@@ -718,9 +806,9 @@ ModelImporter:
       loopBlendOrientation: 0
       loopBlendPositionY: 0
       loopBlendPositionXZ: 0
-      keepOriginalOrientation: 1
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
       heightFromFeet: 0
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
@@ -746,9 +834,9 @@ ModelImporter:
       loopBlendOrientation: 0
       loopBlendPositionY: 0
       loopBlendPositionXZ: 0
-      keepOriginalOrientation: 1
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
       heightFromFeet: 0
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
@@ -769,14 +857,14 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
       loopBlendPositionXZ: 0
-      keepOriginalOrientation: 1
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
       heightFromFeet: 0
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
@@ -797,14 +885,14 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
       loopBlendPositionXZ: 0
-      keepOriginalOrientation: 1
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
       heightFromFeet: 0
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
@@ -825,14 +913,14 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
       loopBlendPositionXZ: 0
-      keepOriginalOrientation: 1
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
       heightFromFeet: 0
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
@@ -911,12 +999,12 @@ ModelImporter:
       hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
-      loopBlendOrientation: 1
-      loopBlendPositionY: 1
-      loopBlendPositionXZ: 1
-      keepOriginalOrientation: 1
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
       heightFromFeet: 0
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
@@ -1051,12 +1139,12 @@ ModelImporter:
       hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
-      loopBlendOrientation: 1
-      loopBlendPositionY: 1
-      loopBlendPositionXZ: 1
-      keepOriginalOrientation: 1
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
       heightFromFeet: 0
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
@@ -1293,8 +1381,8 @@ ModelImporter:
     - serializedVersion: 16
       name: attack01
       takeName: 
-      firstFrame: 2014.9999
-      lastFrame: 2044.9999
+      firstFrame: 2015
+      lastFrame: 2045
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -1321,7 +1409,7 @@ ModelImporter:
     - serializedVersion: 16
       name: attack02
       takeName: 
-      firstFrame: 2044.9999
+      firstFrame: 2045
       lastFrame: 2070
       wrapMode: 0
       orientationOffsetY: 0
