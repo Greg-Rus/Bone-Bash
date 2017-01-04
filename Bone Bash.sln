@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bone Bash", "Bone Bash.cspr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bone Bash.Editor.Plugins", "Bone Bash.Editor.Plugins.csproj", "{721C56F6-C0DC-83B5-6CB7-42C2EF9E3BE2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bone Bash.Editor", "Bone Bash.Editor.csproj", "{C2AB4F77-C029-EA81-AC56-F4AD0124C86D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{721C56F6-C0DC-83B5-6CB7-42C2EF9E3BE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{721C56F6-C0DC-83B5-6CB7-42C2EF9E3BE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{721C56F6-C0DC-83B5-6CB7-42C2EF9E3BE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2AB4F77-C029-EA81-AC56-F4AD0124C86D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2AB4F77-C029-EA81-AC56-F4AD0124C86D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2AB4F77-C029-EA81-AC56-F4AD0124C86D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2AB4F77-C029-EA81-AC56-F4AD0124C86D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
